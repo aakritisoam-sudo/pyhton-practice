@@ -21,4 +21,15 @@ print(t.pop(3)) # this will remove the value at the given index
 print(t)
 
 s= [1,2,3,4,5]
-s.remove(3) #this will remove the value from yhe list
+s.remove(3) #this will remove the value from the list 
+print(s)
+
+u = [1,2,3,4,5]
+u.clear() #this will clear the list
+print(u)
+
+j = [1,2,3,4,5]
+print(j.index(3)) #this will return the index of the value in the list 
+
+k = [1,2,3,4,5]
+print(k.count(3)) #this will return the count of the value in the list 
